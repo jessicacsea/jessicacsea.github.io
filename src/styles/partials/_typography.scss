@@ -1,0 +1,33 @@
+// font-family: 'Lora', serif;
+// font-family: 'Raleway', sans-serif;
+
+body {
+    font-size: 62.5%;
+    font-family: $body;
+    border: 8px solid #494c4e;
+    margin: 0px;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-size: 2.1rem;
+    font-family: $title;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10;
+}
+h2 {
+    font-family: $title;
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    letter-spacing: 2px;
+}
+h3{
+    font-size: 1.8rem;
+}
+.footerBar {
+    text-align:center;
+}

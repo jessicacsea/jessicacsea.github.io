@@ -1,0 +1,23 @@
+@import 'partials/setup';
+@import 'partials/utils';
+@import 'partials/typography';
+@import 'partials/body';
+@import 'partials/header';
+@import 'partials/media';
+
+html {
+    height: 100vh;
+}
+
+body {
+    border:#d3eee1 solid 20px;
+    margin: 0px;
+    padding: 10px;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.aboutMe {
+    padding: 8px;
+    margin: 5px;
+}
